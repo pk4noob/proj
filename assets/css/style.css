@@ -1,0 +1,68 @@
+.input-group-prepend > a {
+    text-decoration: none;
+}
+.navbar {
+    padding: 0 !important;
+}
+.input-group-prepend > a {
+    font-size: 28px !important;
+}
+.nav > .nav-item > a {
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav > .nav-item > a:hover{
+    text-decoration: underline !important;
+    color: black !important;
+}
+.nav-link {
+    padding: 10px !important;
+} 
+#nav-toggler {
+    height: 42px;
+    border-radius: unset;
+    font-size: 15px;
+
+}
+#nav-toggler:hover {
+    text-decoration: underline;
+}
+.alert {
+    border-radius: unset;
+    background-color: #ffa626;
+    color: #000;
+    font-size: .5rem;
+    font-weight: 400;
+    padding: 20px !important;
+    line-height: 1.2;
+    padding: .9375em;
+    font-family: franklin-gothic-urw,helvetica,sans-serif;
+}
+.navbar-alert > p > strong > a{
+    color: black;
+    font-size: 16px;
+    font-family: franklin-gothic-urw,helvetica,sans-serif;
+}
+.navbar-alert > p > strong > a:hover{
+    color: red;
+}
+p, nav, h2 {
+    margin-bottom: 0 !important;
+}
+.text:hover{
+    color: green;
+}
+#general-navbar {
+    height: 70px;
+    border-bottom: 3px solid rgba(122, 122, 122, 0.699);
+    background-color: #fff !important;
+}
+.nav-brand > a > h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: rgba(59, 102, 219, 0.931);
+}
+.nav-brand > a > h2:hover{
+    color: rgba(226, 83, 0, 0.993);
+}
