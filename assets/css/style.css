@@ -251,7 +251,7 @@ p, nav, h2 {
     text-decoration: underline;
 }
 
-
+/* event contetn */
 .event-featured {
     background-color: #101010;
     margin-bottom: 2em;
@@ -320,6 +320,9 @@ p, nav, h2 {
 .event-date-news-content:hover{
     text-decoration: none;
 }
+.event-date-news-content:hover .title {
+    text-decoration: underline;
+}
 .label {
     display: block;
     text-transform: uppercase;
@@ -342,6 +345,9 @@ p, nav, h2 {
     text-align: center;
     font: normal 500 1.125em/1 franklin-gothic-urw,helvetica,sans-serif;
     color: white;
+}
+.card-shadow {
+    box-shadow: -2px 2px 5px #ccc;
 }
 .upcoming-events .card-body.text-content .label {
     color: #0d73d6 !important;
@@ -392,12 +398,18 @@ p, nav, h2 {
     flex: 1 1 auto;
 }
 .upcoming-events .card-horizontal:hover{
-    color: #0d73d6;;
+    text-decoration: none;
+}
+.upcoming-events .card-horizontal:hover .card-title {
+    color: #0d73d6;
     text-decoration: underline;
 }
 
 .upcoming-events .date-card {
     text-align: center;
+}
+.times time {
+    color: #5c5c5c;
 }
 .upcoming-events .card-title {
     font: normal 700 1.3125em/1.14286 franklin-gothic-urw-cond,helvetica,sans-serif;
