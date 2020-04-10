@@ -172,7 +172,9 @@ p, nav, h2 {
     padding: 5px;
 }
 .burger-nav-btn{
+    background-color: #fafafa;
     font-size: 28px;
+    border: 0;
 }
 .right-navbar-collapse > ul > li > a{
     text-transform: uppercase;
@@ -183,6 +185,7 @@ p, nav, h2 {
 .right-navbar-collapse > ul > li > a:hover{
     text-decoration: underline;
 }
+
 
 @media only screen and (max-width: 1030px){
     #hide {
@@ -347,6 +350,9 @@ p, nav, h2 {
     font: normal 500 1.125em/1 franklin-gothic-urw,helvetica,sans-serif;
     color: white;
 }
+.event-box-lists{
+    padding: .9375rem;
+}
 .card-shadow {
     box-shadow: -2px 2px 5px #ccc;
 }
@@ -433,6 +439,51 @@ p, nav, h2 {
     display: inline-block;
 } .upcoming-events {
     margin-bottom: 4.25em
+}
+
+/* upcoming events view button */
+.view-all-wrapper {
+    margin-top: 1em;
+    text-align: center;
+}
+.view-all-wrapper .view-all {
+    font: normal 700 .875em/1 franklin-gothic-urw,helvetica,sans-serif;
+    position: relative;
+    background-color: #4c4c4c;
+    color: #fff;
+    border: 0;
+    border-radius: 1.66667em;
+    padding: 1.14286em 2.85714em;
+    text-transform: uppercase;
+    transition: background 125ms linear;
+    display: inline-block;
+    overflow: hidden;
+}
+.view-all:hover {
+    text-decoration: none;
+    
+}
+
+.view-all .text {
+    left: 0;
+    position: relative;
+}
+.view-all .icon {
+    position: absolute;
+    bottom: -5em;
+    font-size: 1.25em;
+    right: 1.8em;    
+    /* transition: 1s all; */
+
+}
+.view-all:hover .text {
+    left: -.9375em;
+}
+.view-all:hover .icon {
+    bottom: 0 !important;
+    top: .78em;
+    right: 1.5em;
+    transition: 1s all;
 }
 
 /* footer */
