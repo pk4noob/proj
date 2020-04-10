@@ -461,7 +461,8 @@ p, nav, h2 {
 }
 .view-all:hover {
     text-decoration: none;
-    
+    background-color: #101010;
+    transition: .5s all;
 }
 
 .view-all .text {
@@ -480,6 +481,7 @@ p, nav, h2 {
     left: -.9375em;
 }
 .view-all:hover .icon {
+    color: #fff;
     bottom: 0 !important;
     top: .78em;
     right: 1.5em;
