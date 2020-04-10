@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BUNU MUELIMMNEN SORUS INSPET EDENDE HTML-WDITH COX AZALIR -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EVENTS</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/fonts.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="main-menu-search-bar-wrapper">
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="input-group" id="navbar-search-input" style="height: 50px;">
+            <div class="input-group-prepend  text-white bg-dark search-contents">
+              <a href="#" class="input-group-text text-white bg-dark search-content-a" id="basic-addon1">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+            <input type="text" class="form-control text-white bg-dark shadow-none search-content-input"
+              style="height: 50px;" aria-label="Username" aria-describedby="basic-addon1" />
+          </div>
+        </div>
+        <!-- Bu navbar ustdekidi -->
+        <nav class="navbar navbar-dark justify-content-end super-nav" id="hide"
+          style="background-color: #fff !important;">
+          <ul class="nav super-nav-menu">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">ABOUT US<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">PRESS ROOM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">EXPERTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">THE BROOKING PRESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">WASHU AT BROOKINGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">SUPPORTING BROOKINGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">CAREERS</a>
+            </li>
+          </ul>
+          <button class="navbar-toggler bg-dark text-white" id="nav-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            SEARCH <i class="fas fa-search"></i>
+          </button>
+        </nav>
+      </div>
+      <hr class="nav-content-hr" />
+      <!-- Bu navbar alttakidi -->
+      <div class="navbar-main">
+        <nav id="" class="navbar main-nav navbar-expand-lg justify-content-md-between navbar-light bg-light">
+          <!-- Burda responsib olanda flex rahat olunsun  deye divlere alinib search iconi ile burger -->
+          <div class="flex-nav">
+            <div class="navbar-brand-md ml-2">
+              <a class="navbar-brand header-navbar-brand" href="#">
+                BROOKINGS
+              </a>
+            </div>
+            <div class="search-burger-contents">
+              <button class="navbar-toggler search-burger-hover bg-dark text-white hide-search" id="nav-toggler"
+                type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-search"></i>
+              </button>
+              <button class="navbar-toggler search-burger-hover" id="burger-btn" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-nav" id="main-nav-menu">
+              <ul class="nav mr-2">
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">AI<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">POLICY 2020</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">CITIES & REGIONS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">GLOBAL DEV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">INTL AFFAIRS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">U.S.ECONOMY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">U.S.POLITICS & GOVT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-secondary" href="#">MORE</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- burger nav hisse -->
+    <nav class="nav-right">
+      <div class="nav-right-inner">
+        <div class="section-right">
+          <h2 class="mt-2 ml-2">BROOKINGS</h2>
+          <button class="burger-nav-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <!-- Accordion Using List Group -->
+        <div id="accordion" class="push-nav">
+          <ul class="panel push-nav-main">
+            <!-- panel class must be in -->
+            <li class="menu-item-has-children">
+              <a href="#web_dev" data-parent="#accordion" data-toggle="collapse"
+                class="list-group-item burger-collapse-a">
+                Trending
+              </a>
+              <div class="collapse right-navbar-collapse" id="web_dev">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="#">U.S. Metro Areas</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Cities & Regions</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">U.S. Economy</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#desktop" data-parent="#accordion" data-toggle="collapse"
+                class="list-group-item burger-collapse-a">
+                Topics
+              </a>
+              <div class="collapse right-navbar-collapse" id="desktop">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="#">AI</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Policy 2020</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Cities & Regions</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Global Dev</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Intl Affairs</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">U.S. Economy</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">U.S. Politics & Govt</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">More</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                About Us
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Press ROOM
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Experts
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Events
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                The Brooking Press
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Washu At Brookings
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Support Brookings
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                Careers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div style="margin-bottom: 4.25em;" class="page-content">
+    <header class="program-header topic-spotlight">
+      <div class="title-area">
+        <h1>WashU at Brookings</h1>
+
+        <nav id="dl-menu" class="dl-menuwrapper ">
+          <button id="dl-trigger" class="btn btn-light"><span>Menu</span><i style="margin-left: 6px;"
+              class="fas fa-caret-down"></i></button>
+          <ul id="menu-executive-education" class="dl-menu dl-menu-toggle">
+            <li id="menu-item-20795"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20795"><a
+                href="#">About WashU at Brookings</a>
+              <ul class="dl-submenu">
+                <li class="dl-back"><a href="#">Back</a></li>
+                <li id="menu-item-323132"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323132"><a href="#">About
+                    WashU at Brookings</a></li>
+                <li id="menu-item-323112"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323112"><a
+                    href="#">Education
+                    Philosophy</a></li>
+                <li id="menu-item-323113"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323113"><a href="#">WashU
+                    at Brookings Team</a></li>
+              </ul>
+            </li>
+            <li id="menu-item-323114"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323114">
+              <a href="#">Certificate Programs</a>
+              <ul class="dl-submenu">
+                <li class="dl-back"><a href="#">Back</a></li>
+                <li id="menu-item-323116"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323116"><a
+                    href="#">Certificate
+                    in Public Leadership</a></li>
+                <li id="menu-item-323115"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323115"><a
+                    href="#">Certificate in
+                    Policy Strategy</a></li>
+              </ul>
+            </li>
+            <li id="menu-item-323135"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323135">
+              <a href="#">Fellowships &amp; Programs</a>
+              <ul class="dl-submenu">
+                <li class="dl-back"><a href="#">Back</a></li>
+                <li id="menu-item-323125"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323125"><a href="#">EXEC
+                    Fellowship</a></li>
+                <li id="menu-item-323124"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323124"><a href="#">LEGIS
+                    Congressional Fellowship</a></li>
+                <li id="menu-item-323126"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323126"><a href="#">Women’s
+                    Leadership
+                    Program</a></li>
+              </ul>
+            </li>
+            <li id="menu-item-323421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323421">
+              <a href="#">Leadership
+                Courses</a></li>
+            <li id="menu-item-323420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323420">
+              <a href="#">Policy
+                Courses</a></li>
+            <li id="menu-item-331457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331457">
+              <a href="#">Course
+                Calendar</a></li>
+            <li id="menu-item-323128"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323128">
+              <a href="#">On-Site Courses</a>
+              <ul class="dl-submenu">
+                <li class="dl-back"><a href="#">Back</a></li>
+                <li id="menu-item-323136"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323136"><a href="#">On-Site
+                    Courses</a></li>
+                <li id="menu-item-323129"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323129"><a href="#">On-Site
+                    Course Options</a>
+                </li>
+              </ul>
+            </li>
+            <li id="menu-item-587213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587213">
+              <a href="#">Master of Science in Global
+                Leadership and Strategy</a></li>
+            <li id="menu-item-323131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323131">
+              <a href="#">Supporting Veterans</a></li>
+            <li id="menu-item-323130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323130">
+              <a href="#">Registration Information</a></li>
+            <li id="menu-item-515417"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-515417">
+              <a href="#">News and Reports</a>
+              <ul class="dl-submenu">
+                <li class="dl-back"><a href="#">Back</a></li>
+                <li id="menu-item-515420"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515420"><a
+                    href="#">Newsletters</a></li>
+                <li id="menu-item-556527"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556527"><a href="#">Think.
+                    Learn. Lead.</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="under-title-area">
+        <div class="twitter-username">
+          <i class="fab fa-twitter" style="color:#00aced;"></i>
+          <a href="#" class="twitter">@BrookingsExecEd</a>
+        </div>
+      </div>
+      <div class="program-description">
+        <blockquote itemprop="description" style="display: inline-block; word-wrap: break-word;">
+          <p>WashU at Brookings, a partnership of the Brookings Institution and Washington University in St. Louis
+            (WUSTL) Olin School of Business, brings together two premier institutions to deliver on Robert S. Brookings’
+            desire to <em>“teach the art of handling problems rather than simply impart accumulated knowledge”</em> to
+            those in and engaged with government.</p>
+        </blockquote>
+      </div>
+      <div class="program-cta-button-container">
+        <a class="program-cta-button smooth-scroll" href="#">
+          <span>See All Courses</span>
+        </a>
+      </div>
+      <section class="topic-spotlight">
+        <div class="spotlight-content">
+          <div class="spotlight-primary-wrapper">
+            <article class="archive-view course spotlight-primary has-image" itemscope="">
+              <figure class="article-image">
+                <div class="image-wrapper">
+                  <a href="#" itemprop="url">
+                    <img width="717" class="wp-image-323301 size-spotlight-primary lazyautosizes lazyloaded"
+                      data-sizes="auto" src="./assets/images/151015_br_execed_resilience_in_leadership_084.jpg"
+                      sizes="717px">
+                  </a>
+                </div>
+              </figure>
+              <div class=" article-info">
+                <h4 class="title" itemprop="name"><a class="a" id="Resilience" href="#" itemprop="url">Resilience in
+                    Leadership</a></h4>
+                <div class="meta emphasized">
+                  1 upcoming course date. </div>
+                <div class="description" itemprop="description">
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+
+
+          <div class="spotlight-secondary-wrapper" style="margin-right: auto;">
+
+
+            <article class="archive-view course has-image" itemscope="">
+              <figure class="article-image">
+                <div class="image-wrapper">
+                  <a href="#" itemprop="url">
+                    <img height="90" class="wp-image-323103 size-post-list lazyautosizes lazyloaded" data-sizes="auto"
+                      alt="" src="./assets/images/bee_20160803_strategies_for_conflict_resolution.jpg" sizes="160px">
+                  </a>
+                </div>
+              </figure>
+              <div class="image-wrapper">
+                <h4 class="title" itemprop="name"><a class="a" href="#" itemprop="url">Conflict
+                    Resolution</a></h4>
+                <div class="meta emphasized">
+                  1 upcoming course date. </div>
+                <div class="description" itemprop="description">
+                </div>
+              </div>
+            </article>
+
+
+
+
+
+
+            <article class="archive-view course has-image" itemscope="">
+              <figure class="article-image">
+                <div class="image-wrapper">
+                  <a href="#" itemprop="url">
+                    <img height="90" class="wp-image-323098 size-post-list lazyautosizes lazyloaded" data-sizes="auto"
+                      alt="" src="./assets/images/20160803_art_and_science_of_negotiation.jpg" sizes="160px">
+                  </a>
+                </div>
+              </figure>
+              <div class="article-info">
+                <h4 class="title" itemprop="name"><a class="a" href="#" itemprop="url">Negotiation:
+                    Strategies for Results</a></h4>
+                <div class="meta emphasized">
+                  1 upcoming course date. </div>
+                <div class="description" itemprop="description">
+                </div>
+              </div>
+            </article>
+
+
+
+
+
+
+            <article class="archive-view course has-image" itemscope="">
+              <figure class="article-image">
+                <div class="image-wrapper">
+                  <a href="#" itemprop="url">
+                    <img height="90" class="wp-image-614604 size-post-list lazyautosizes lazyloaded" data-sizes="auto"
+                      alt="Sam Leadership" src="./assets/images/Sam.jpg" sizes="160px">
+                  </a>
+                </div>
+              </figure>
+              <div class="article-info">
+                <h4 class="title" itemprop="name"><a class="a" href="#" itemprop="url">Courageous
+                    Leadership</a></h4>
+                <div class="meta emphasized">
+                  1 upcoming course date. </div>
+                <div class="description" itemprop="description">
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+      </section>
+    </header>
+    <section class="esas">
+      <div style="border-bottom: 1px solid rgba(13,115,214,.35); text-align: center; margin-bottom: 1em;">
+        <h2 class="h2"><a href="#">COURSE CATALOG</a></h2>
+      </div>
+      <div class="module-content image-left">
+        <div style="margin-left: 38%;" class="imageeee">
+
+          <img width="330" height="371" src="./assets/images/WashUatBrookings2019_2020.July-1.pdf.png"
+            class="attachment-article-inline size-article-inline lazyautosizes lazyloaded"
+            alt="2019-2020 Course Catalog">
+
+        </div>
+
+        <div style="padding-top: 30px;padding-bottom: 20px" class="row content-column-centered module-bottom post-body">
+          <div class="col-7" style="display: flex;flex-direction: column;justify-content: start;align-items: center;">
+            <p style="text-align: left;padding-bottom: 24px;"><a href="#">Download
+                the 2019-2020 Course Catalog</a></p>
+            <p style="text-align: left;"><a href="#">Download
+                the 2019-2020 Course Calendar</a></p>
+          </div>
+          <div class="col-4" style="display: flex; justify-content: center; align-items: center;">
+            <p style="text-align: left;    font-weight: 700;
+              font-size: medium;">**If you are experiencing issues downloading our catalog or
+              calendar, please
+              request a PDF copy from our Registrar at <a href="#">registrar@brookings.edu</a>.**</p>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-up">
+      <div class="logo-name">
+        <h3>BROOKINGS</h3>
+      </div>
+      <div class="social-links">
+        <a href="#" style="background: #6275AE;"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="#" style="background: #33BCF4;"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" style="background: red;"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#" style="background: #6275AE;"><i class="fa fa-envelope fa-lg"></i></a>
+        <a href="#" style="background: #A73399;"><i class="fas fa-podcast fa-lg"></i></a>
+        <a href="#" style="background: #FFA300;"><i class="fa fa-rss fa-lg"></i></a>
+      </div>
+      <div class="language">
+        <p>LANGUAGES</p>
+        <p class="langs">Espanol</p>
+        <p class="langs">English</p>
+      </div>
+    </div>
+    <hr class="hr-footer">
+    <section class="footer-links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Research Programs</a></li>
+        <li><a href="#">Find and Expert</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </section>
+    <section class="footer-legal">
+      <ul>
+        <li>
+          <a href="#">Terms and Conditions</a>
+        </li>
+        <li>
+          <a href="#">Brookings Privacy and Policy</a>
+        </li>
+        <li>
+          <a href="#">Copyright 2020 The Brookings Institution</a>
+        </li>
+      </ul>
+    </section>
+  </footer>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
