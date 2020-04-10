@@ -944,6 +944,11 @@ h4{
 
 
 
+
+
+
+
+
 .page-header {
     display: -ms-flexbox;
     display: flex;
@@ -1012,4 +1017,43 @@ h4{
 #btn--:hover{
     color: white;
     background-color: black;
+}
+
+
+@media screen and (max-width: 699px){
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .spotlight-content{
+        flex-direction: column;
+        width: 100%;
+    }
+   
+
+    .topic-spotlight{
+        width: 100%;
+    }
+    img{
+        width: 237px;
+        height: 136px;
+    }
+    .size-article-inline{
+        width: 333px;
+        height: 375px;
+    }
+    .wp-image-323301{
+        width: 668px;
+        height: 376px;
+    }
+ 
+    .program-description > blockquote > p {
+        width: 100%;
+    }
+    .program-header > div > h1{
+        font: normal 700 1.2em/1 franklin-gothic-urw-cond,helvetica,sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
 }
