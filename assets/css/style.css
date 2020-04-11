@@ -1029,7 +1029,9 @@ h4{
         flex-direction: column;
         width: 100%;
     }
-   
+    .spotlight-secondary-wrapper{
+        width: 100%;
+    }
 
     .topic-spotlight{
         width: 100%;
@@ -1038,22 +1040,80 @@ h4{
         width: 237px;
         height: 136px;
     }
-    .size-article-inline{
-        width: 333px;
-        height: 375px;
-    }
     .wp-image-323301{
         width: 668px;
         height: 376px;
     }
- 
+    .program-description{
+        width: 100%;
+        font: normal 200 0.8955em/1.5 PT Serif,Times,serif;
+    }
     .program-description > blockquote > p {
         width: 100%;
+    }
+    .attachment-article-inline{
+        width: 333px;
+        height: 375px;
     }
     .program-header > div > h1{
         font: normal 700 1.2em/1 franklin-gothic-urw-cond,helvetica,sans-serif;
         color: #fff;
         text-transform: uppercase;
     }
+    .esas > .image-left > .imageeee{
+        margin-left: 24% !important;
+    }
+}
+@media screen and (max-width: 371px){
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .spotlight-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .spotlight-secondary-wrapper{
+        width: 100%;
+    }
 
+    .topic-spotlight{
+        width: 100%;
+    }
+    img{
+        width: 112px;
+        height: 64px;
+    }
+    .wp-image-323301{
+        width: 333px;
+        height: 187px;
+    }
+    .program-description{
+        width: 100%;
+        font: normal 200 0.8955em/1.5 PT Serif,Times,serif;
+    }
+    .program-description > blockquote > p {
+        width: 100%;
+    }
+    .attachment-article-inline{
+        width: 165px;
+        height: 187px;
+    }
+    .program-header > div > h1{
+        font: normal 700 1.2em/1 franklin-gothic-urw-cond,helvetica,sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .esas > .image-left > .imageeee{
+        margin-left: 24% !important;
+    }
+    .title-area{
+        flex-direction: column;
+    }
+    #dl-trigger{
+        border-left: 0 !important;
+    }
+    .topic-spotlight .archive-view.spotlight-primary .image-wrapper{
+        overflow: 0 !important;
+    }
 }
